@@ -2,7 +2,7 @@ require 'pry'
 
 RSpec.describe 'index.html' do
 
-  #it 'has a valid document structure' do
+  it 'has a valid document structure' do
 
   expect(html_file_contents).to include('<html')
   expect(html_file_contents).to include('</html>')
