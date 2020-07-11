@@ -1,5 +1,5 @@
 require 'pry'
-
+=begin
 RSpec.describe 'index.html' do
 
   it 'has a valid document structure' do
@@ -15,7 +15,7 @@ RSpec.describe 'index.html' do
 
   expect(results.errors).to be_empty, error_messages
 end
-
+=end
   context 'within <body>' do
     it 'contains a <header> tag' do
       header = parsed_html.search('header')[0]
